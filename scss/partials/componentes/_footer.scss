@@ -1,0 +1,79 @@
+@import "scss/partials/variables/variables";
+footer{
+    background:$color3;
+    .g-5,.gx-5{
+        --bs-gutter-x:0%;
+    }
+}
+footer{
+    h4{
+        font-size:25px;
+    }
+}
+
+footer{
+    .logo-footer{
+        margin-left: 10%;
+    }
+}
+footer{
+    .text-small{
+        font-size: 0.9rem
+    }
+}
+
+footer{
+    a{
+        color: inherit;
+        text-decoration: none;
+        transition: all 0.3;
+    }&:hover{
+        text-decoration: none;
+    }&:focus{
+        text-decoration: none;
+    }
+}
+footer{
+    .form-control {
+        background: $color2;
+        border-color: $color2;
+    }&:focus{
+        background:$color2 ;
+    }
+}
+
+footer{
+    .logonav{
+        margin-top: 18%;
+        margin-left: 20px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 440px){
+    .g-5,.gx-5{
+        --bs-gutter-x:0%;
+    }
+}
+
+@media screen and (min-width: 441px) {
+    footer{
+        a{
+            padding: 1%;
+        }
+    }
+
+    .g-5,.gx-5{
+        --bs-gutter-x:0%;
+    }
+}
+
+@media screen and (max-width:767px){
+    footer{
+        a{
+            padding: 3%;
+        }
+    }
+    .g-5,.gx-5{
+        --bs-gutter-x:0%;
+    }
+}

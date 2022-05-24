@@ -1,0 +1,16 @@
+@import "scss/partials/variables/variables";
+main{
+    .test{
+        text-align: $centro;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        -webkit-animation: titulo 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        animation: titulo 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        .test-img{
+            width: 55%;
+            margin-top: 1%;
+            margin-left: 22%;
+            margin-bottom: 2%;
+        }
+    }
+}

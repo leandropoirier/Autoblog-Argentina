@@ -1,0 +1,16 @@
+@import "scss/partials/variables/variables";
+
+@mixin item {
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+    .item-noticias-0{
+        @include item;
+    }
+            
+    .item-noticias-1{
+        @include item;
+    }
