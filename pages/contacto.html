@@ -47,24 +47,35 @@
 </header>
 <main class="main-formulario">
     <div class="container mt-3">
-        <h1 class="titulo-contacto">Mandanos tu Noticia</h1>
-        <form class="form-contacto" action="/action_page.php">
+    <h1 class="titulo-contacto">Hacemos un Test de tu auto</h1>
+        <form class="form-contacto" action="/action_page.php" id="Formulario">
             <div class="mb-3 mt-3">
-            <label  for="text">Nombre y Apellido</label>
-            <input type="text" class="form-control" id="email" placeholder="Nombre y Apellido" name="name">
+            <label  for="text">Marca</label>
+            <input type="text" class="form-control" id="marca" placeholder="marca" name="name">
+        </div>
+        <div class="mb-3 mt-3">
+            <label  for="text">Modelo</label>
+            <input type="text" class="form-control" id="modelo" placeholder="modelo" name="name">
         </div>
         <div class="mb-3">
             <label for="pwd">Email</label>
-            <input type="text" class="form-control" id="pwd" placeholder="email" name="email">
+            <input type="text" class="form-control" id="email" placeholder="email" name="email">
         </div>
         <label for="comment">Comentarios</label>
-        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        <textarea class="form-control" rows="5" id="comentarios" name="text"></textarea>
         <div class="form-check mb-3">
             <label class="form-check-label">
             <input class="form-check-input" type="checkbox" name="remember"> Recuerdame
             </label>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary" id="buttonEnviar">Enviar</button>
+
+            <!-- MUESTRO LOS DATOS -->
+        <div class="container">
+            <button class="btn btn-primary" id="buttonVehiculos">Ver los vehiculos</button>
+            <div class="row" id="datosVehiculos">
+        </div>
+        
         </form>
     </div>
 </main>
@@ -115,5 +126,6 @@
         </div>
     </div>
 </footer>
+<script src="../js/script.js"></script>
 </body>
 </html>

@@ -6,3 +6,11 @@
 body{
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }
+
+#buttonVehiculos{
+    margin-top: 10px;
+}
+
+#buttonEnviar{
+    margin-left: 12px;
+}
