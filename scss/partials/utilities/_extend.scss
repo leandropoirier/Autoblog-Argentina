@@ -1,0 +1,15 @@
+@import "scss/partials/variables/variables";
+
+.test-texto{
+    text-align: $centro;
+    color: $color;
+    font-family:$font2;
+    margin-left: 6%;
+}
+
+.test-titulo{
+    @extend .test-texto;
+    border-bottom: 1px solid $color;
+}
+
+

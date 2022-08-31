@@ -1,0 +1,17 @@
+@import "scss/partials/variables/variables";
+
+main{
+    .row {
+        --bs-gutter-x:0%;
+    }
+}
+
+
+main{
+    .row{
+        img{
+            margin-left: 10%;
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@import "scss/partials/variables/variables";
+
+main{
+    .titulo-noticias{
+        text-align: $centro;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        -webkit-animation: titulo 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        animation: titulo 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+}
+
+main{
+    .container-noticias{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:nowrap;
+        justify-content:space-around;
+        align-items:baseline;
+        align-content:flex-start;
+        height:100vh;
+        @-webkit-keyframes titulo {
+            0% {
+            letter-spacing: 1em;
+            opacity: 0;
+            }
+            40% {
+            opacity: 0.6;
+            }
+            100% {
+            letter-spacing: normal;
+            opacity: 1;
+            }
+        }
+        @keyframes titulo {
+            0% {
+            letter-spacing: 1em;
+            opacity: 0;
+            }
+            40% {
+            opacity: 0.6;
+            }
+            100% {
+            letter-spacing: normal;
+            opacity: 1;
+            }
+        }
+        .form-contacto{
+            padding: 10px;
+            margin: 10px;
+            border: 10px solid $color4;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+[
+    {
+            "Marca":"Volkswagen",
+            "Modelo":"Gol trend"
+        },
+        {
+            "Marca":"Ford",
+            "Modelo":"focus"
+        },
+        {
+            "Marca":"Peugeot",
+            "Modelo":"308"
+        },
+        {
+            "Marca":"Renault",
+            "Modelo":"Clio RS"
+        },
+        {
+            "Marca":"Peugeot",
+            "Modelo":"208"
+        },
+        {
+            "Marca":"Fiat",
+            "Modelo":"Cronos"
+        },
+        {
+            "Marca":"Renault",
+            "Modelo":"Megane rs"
+        }
+]

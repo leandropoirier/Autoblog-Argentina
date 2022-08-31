@@ -1,0 +1,67 @@
+@import "scss/partials/variables/variables";
+
+main{
+    .temas{            
+        font-family:$font;
+        text-align: $centro;
+        color: $color;
+        -webkit-animation: temas 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        animation: temas 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+    @-webkit-keyframes temas {
+        0% {
+        letter-spacing: -0.5em;
+        -webkit-transform: translateZ(-700px) translateY(-500px);
+                transform: translateZ(-700px) translateY(-500px);
+        opacity: 0;
+        }
+        40% {
+        opacity: 0.6;
+        }
+        100% {
+        -webkit-transform: translateZ(0) translateY(0);
+                transform: translateZ(0) translateY(0);
+        opacity: 1;
+        }
+    }
+    @keyframes temas {
+        0% {
+        letter-spacing: -0.5em;
+        -webkit-transform: translateZ(-700px) translateY(-500px);
+                transform: translateZ(-700px) translateY(-500px);
+        opacity: 0;
+        }
+        40% {
+        opacity: 0.6;
+        }
+        100% {
+        -webkit-transform: translateZ(0) translateY(0);
+                transform: translateZ(0) translateY(0);
+        opacity: 1;
+        }
+    }
+}
+main{
+    img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: 5px 10px $color5;
+        border: 1px solid $color;
+    }
+}
+main{
+    .texto{
+        text-align: $centro;
+        font-size: large;
+        font-weight: bold;
+        color: $color;
+        font-family:$font;
+    }
+}
+main{
+    .titulo-h3{
+        text-align: $centro;
+    }
+}
+
+
